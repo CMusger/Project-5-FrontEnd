@@ -43,6 +43,7 @@ body{
     border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
     color: white;
+    
 }
 @media(max-width:767px){
     .cart{
@@ -57,6 +58,7 @@ body{
     border-bottom-right-radius: 1rem;
     padding: 4vh;
     color: black;
+    
 }
 @media(max-width:767px){
     .summary{
@@ -97,6 +99,7 @@ img{
 }
 .back-to-shop{
     margin-top: 4.5rem;
+    margin-bottom: auto;
 }
 h5{
     margin-top: 4vh;
