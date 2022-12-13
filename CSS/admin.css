@@ -1,0 +1,81 @@
+:root {
+  --main-bg-color: #2385c4;
+  --second-bg-color: #212121;
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("../fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Thin";
+  src: url("../fonts/Poppins-Thin.ttf");
+}
+
+
+
+#adminContainer {
+
+  padding: 10px;
+  margin: 0;
+
+  background-color: var(--main-bg-color);
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Poppins Thin";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+#contactCol {
+  position: relative;
+}
+
+#menuContainer {
+  min-height: 52vh;
+  background-color: var(--second-bg-color);
+  border-radius: 10px;
+  margin-right: 0px;
+  font-family: "Poppins Thin";
+  color: #fff5ea;
+  top: 25%;
+  left: 10rem;
+  position: absolute;
+
+  min-width: 15rem;
+}
+
+#serviceButton {
+  background-color: #000;
+  font-size: 1rem;
+}
+#userButton {
+  background-color: #000;
+  font-size: 1rem;
+}
+#buttonWrapper {
+  position: absolute;
+}
+
+
+#vectorAdmin img {
+  max-height: 7rem;
+}
+#vectorAdmin {
+  position: absolute;
+  bottom: 37rem;
+  left: 30em;
+  padding: 0;
+  margin: 0;
+}
+#crown img {
+  max-height: 10rem;
+}
+#crown {
+  position: absolute;
+  bottom: 26rem;
+  left: 3.5em;
+  padding: 0;
+  margin: 0;
+}
