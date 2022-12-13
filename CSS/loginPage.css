@@ -89,6 +89,13 @@
     max-height: 16vh;
 }
 
+#womanheart img, #womandesk img{
+    max-height: 80%;
+    max-width: 80%;
+
+}
+
+
 #registerBodyContainer {
     min-height: 100vh;
     min-width: 100vw;
